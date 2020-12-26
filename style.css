@@ -1,0 +1,77 @@
+body{
+
+  background-color: rgb(159, 192, 137);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1{ text-align: center; font-size:61px}
+h2{ text-align: center; font-size: 32px;}
+
+img{
+  float:left
+  widows: 150px;
+  height:300px;
+  border-radius:150px;
+  border:10px solid #666;
+  text-align: center;
+
+}
+
+
+img.correo{
+
+  float: left;
+  margin-right: 20px;
+
+}
+
+p.telefono{
+
+  padding: 15px;
+}
+
+hr{
+  margin-left: 0%;
+  margin-right: 50%;
+
+    text-align: left;
+}
+
+blockquote{
+
+  margin-left: 0%;
+  margin-right: 72%;
+}
+
+img.estrella{
+
+  
+
+  widows: 150px;
+  height:300px;
+  border-radius:0px;
+  border:0px;
+  text-align: center;
+}
+
+p.Programas{
+
+  padding: 20px;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+ 
+}
+
+a:hover, a:focus {
+  background-size: 100% 2px;
+  
+}
